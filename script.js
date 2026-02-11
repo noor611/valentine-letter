@@ -32,8 +32,8 @@ envelope.addEventListener("click", () => {
 // Logic to move the NO btn
 
 noBtn.addEventListener("mouseover", () => {
-    const min = 300;
-    const max = 300;
+    const min = 200;
+    const max = 200;
 
     const distance = Math.random() * (max - min) + min;
     const angle = Math.random() * Math.PI * 2;
@@ -84,3 +84,4 @@ yesBtn.addEventListener("click", () => {
         catImg.src = "cat_end.png";
     }, 3000);
 });
+
